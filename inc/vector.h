@@ -88,6 +88,15 @@ Vector3F32 vector3f32_normalize(Vector3F32* vector);
 Vector3F64 vector3f64_normalize(Vector3F64* vector);
 Vector4F32 vector4f32_normalize(Vector4F32* vector);
 Vector4F64 vector4f64_normalize(Vector4F64* vector);
+// Rotation
+Vector2F32 vector2f32_rotation(Vector2F32* vector, float theta);
+Vector2F64 vector2f64_rotation(Vector2F64* vector, double theta);
+Vector3F32 vector3f32_rotation_x(Vector3F32* vector, float theta);
+Vector3F32 vector3f32_rotation_y(Vector3F32* vector, float theta);
+Vector3F32 vector3f32_rotation_z(Vector3F32* vector, float theta);
+Vector3F64 vector3f64_rotation_x(Vector3F64* vector, double theta);
+Vector3F64 vector3f64_rotation_y(Vector3F64* vector, double theta);
+Vector3F64 vector3f64_rotation_z(Vector3F64* vector, double theta);
 // Subtract Operator
 Vector2F32 vector2f32_subtract(Vector2F32* vectorA, Vector2F32* vectorB);
 Vector2F64 vector2f64_subtract(Vector2F64* vectorA, Vector2F64* vectorB);

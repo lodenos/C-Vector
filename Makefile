@@ -10,6 +10,7 @@ SRC = \
 	./src/dot_product.c \
 	./src/multiply.c \
 	./src/normalize.c \
+	./src/rotation.c \
 	./src/subtract.c
 
 all: $(NAME)
