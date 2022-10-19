@@ -8,10 +8,14 @@ SRC = \
 	./src/distance.c \
 	./src/divide.c \
 	./src/dot_product.c \
+	./src/invert.c \
 	./src/multiply.c \
+	./src/negate.c \
 	./src/normalize.c \
 	./src/rotation.c \
-	./src/subtract.c
+	./src/scale.c \
+	./src/subtract.c \
+	./src/to_string.c
 
 all: $(NAME)
 
