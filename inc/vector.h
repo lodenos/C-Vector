@@ -1,6 +1,8 @@
 #ifndef VECTOR_H
 #define VECTOR_H
 
+#include <stdbool.h>
+
 typedef struct Vector2F32 Vector2F32;
 typedef struct Vector2F64 Vector2F64;
 typedef struct Vector3F32 Vector3F32;
@@ -51,6 +53,11 @@ Vector3F32 vector3f32_add(Vector3F32* vectorA, Vector3F32* vectorB);
 Vector3F64 vector3f64_add(Vector3F64* vectorA, Vector3F64* vectorB);
 Vector4F32 vector4f32_add(Vector4F32* vectorA, Vector4F32* vectorB);
 Vector4F64 vector4f64_add(Vector4F64* vectorA, Vector4F64* vectorB);
+// Bounding Box Inside
+bool vector2f32_bounding_box_inside(Vector2F32* vector, Vector2F32* start,
+  Vector2F32* end);
+bool vector2f64_bounding_box_inside(Vector2F64* vector, Vector2F64* start,
+  Vector2F64* end);
 // Cross Product Operator
 // ...
 // Distance

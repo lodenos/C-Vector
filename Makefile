@@ -5,6 +5,7 @@ NAME = libVector.a
 OBJ = $(sort $(addsuffix .o, $(basename $(SRC))))
 SRC = \
 	./src/add.c \
+	./src/bounding_box_inside.c \
 	./src/distance.c \
 	./src/divide.c \
 	./src/dot_product.c \
